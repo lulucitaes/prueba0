@@ -85,6 +85,7 @@ if (frameCount % 60 === 0){
  cactus0.velocityX = -5;
  cactus0.scale = 0.5;
  cactus0.lifetime = 200;
+  // PONER AQUI EL GRUPO DE CACTUS 
  var aleatorio = Math.round (random(1,6))
 }
 switch (aleatorio){
@@ -103,5 +104,5 @@ switch (aleatorio){
   default: 
   break;
 }
-//gcactus.add(cactus0);
+//gcactus.add(cactus0); // hay que mover este dentro del IF 
 }
