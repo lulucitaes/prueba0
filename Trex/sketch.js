@@ -32,6 +32,8 @@ piso = createSprite (200,180,400,20);
 piso.addImage (piso1);
 trex = createSprite (50,160,20,50);
 trex.addAnimation ("corriendo",trex_corriendo);
+ // aqui nos falta el addAnimation
+  // trex.addAnimation("muerto",trex_muerto);
 trex.scale = 0.5;
 }
 function draw(){
